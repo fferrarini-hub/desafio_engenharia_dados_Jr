@@ -114,9 +114,9 @@ https://www.openstreetmap.org/copyright
 
 Os dados do OpenStreetMap são disponibilizados sob a licença Open Database License (ODbL), com exigências de atribuição aos colaboradores e demais condições aplicáveis.
 
-A atribuição cartográfica correspondente deve ser considerada na utilização e distribuição dos dados derivados do OpenStreetMap.
-
 **Atribuição:** © OpenStreetMap contributors.
+
+A atribuição e os termos aplicáveis devem ser observados conforme a origem e a utilização dos dados cartográficos efetivamente empregados pelo serviço.
 
 ### 4.3 Catálogo de instalações logísticas
 
@@ -301,16 +301,54 @@ O Ruff é utilizado para padronização, formatação e análise estática do c�
 
 ## 11. Utilização de Inteligência Artificial
 
-Ferramentas de Inteligência Artificial foram utilizadas como apoio durante o desenvolvimento do projeto, incluindo:
+Durante o desenvolvimento do RouteOps, ferramentas de Inteligência Artificial foram utilizadas como apoio ao processo de Engenharia de Dados, contribuindo para a investigação de problemas técnicos, revisão de implementações, organização do código e documentação do projeto.
 
-- Investigação e resolução de problemas técnicos.
-- Apoio na revisão e organização do código.
-- Auxílio na documentação técnica.
-- Apoio na análise de resultados e validação de implementações.
+A utilização ocorreu de forma assistiva, mantendo a análise crítica e a responsabilidade técnica sobre as decisões e implementações.
 
-As sugestões produzidas com auxílio de IA foram avaliadas durante o desenvolvimento, com acompanhamento das implementações, execução de testes e validações técnicas.
+### 11.1 Aplicações da IA no desenvolvimento
 
-A utilização de IA não substituiu a necessidade de verificar o funcionamento do código, a consistência dos dados e os resultados produzidos.
+As ferramentas de IA foram utilizadas como apoio nas seguintes atividades:
+
+- **Arquitetura:** apoio na organização do projeto e na estruturação das camadas Bronze, Silver e Gold.
+- **Engenharia de Dados:** auxílio na análise das etapas de ingestão, transformação, validação e persistência dos dados.
+- **SQL:** apoio na elaboração e revisão das consultas analíticas utilizadas na camada Gold.
+- **Dashboard:** auxílio na estruturação da interface com Streamlit e Plotly, incluindo organização dos indicadores e filtros.
+- **Investigação técnica:** apoio na identificação de possíveis causas de erros e análise de alternativas de implementação.
+- **Documentação:** revisão da documentação técnica, descrição das fontes de dados e registro das limitações do projeto.
+
+### 11.2 Investigação de problemas técnicos
+
+A IA também foi utilizada como apoio na investigação de comportamentos inesperados durante o desenvolvimento.
+
+O processo envolveu:
+
+1. Identificação e descrição do problema observado.
+2. Análise do contexto técnico e dos componentes envolvidos.
+3. Levantamento de possíveis causas.
+4. Avaliação de alternativas de correção.
+5. Aplicação e execução das alterações propostas.
+6. Verificação do comportamento após as modificações.
+
+As sugestões foram avaliadas considerando a consistência dos dados, a arquitetura definida e o comportamento esperado das funcionalidades.
+
+### 11.3 Validações e qualidade
+
+A qualidade das implementações foi acompanhada por meio de ferramentas e procedimentos de validação:
+
+- **Pytest:** execução de testes automatizados para verificar o comportamento dos componentes do projeto.
+- **Dados simulados:** utilização de dados fictícios e mecanismos de isolamento, como `monkeypatch`, para reduzir a dependência de serviços externos durante os testes.
+- **Ruff:** análise estática, padronização e formatação do código.
+- **SQL:** conferência das consultas analíticas e dos resultados produzidos na camada Gold.
+- **Integração:** verificação do funcionamento conjunto do pipeline, DuckDB e dashboard.
+- **Documentação:** revisão das fontes, premissas e limitações utilizadas no processamento.
+
+### 11.4 Responsabilidade técnica
+
+A Inteligência Artificial foi utilizada como ferramenta de apoio, não como substituta do processo de desenvolvimento e validação.
+
+As decisões técnicas, a revisão das sugestões, a execução dos testes e a avaliação dos resultados fazem parte do processo de desenvolvimento do projeto.
+
+O objetivo foi utilizar IA para aumentar a produtividade, apoiar a resolução de problemas e aprimorar a qualidade das entregas, mantendo a rastreabilidade e a compreensão das soluções implementadas.
 
 ## 12. Autor
 
@@ -323,4 +361,4 @@ https://github.com/fferrarini-hub/desafio_engenharia_dados_Jr
 
 ---
 
-© OpenStreetMap contributors. Dados cartográficos utilizados conforme os termos da Open Database License (ODbL).
+© OpenStreetMap contributors. Dados cartográficos utilizados conforme os termos aplicáveis da Open Database License (ODbL).
