@@ -1,0 +1,10 @@
+﻿id,nome,tipo,cidade,estado,latitude,longitude,fonte
+1,Porto de Paranagua,porto,Paranagua,PR,-25.500000,-48.503889,https://www.portosdoparana.pr.gov.br/
+2,Porto de Antonina,porto,Antonina,PR,-25.451667,-48.670556,https://www.portosdoparana.pr.gov.br/
+3,Cargolift Sao Jose dos Pinhais,operador_logistico,Sao Jose dos Pinhais,PR,,,https://www.cargolift.com.br/
+4,Porto de Itajai,porto,Itajai,SC,-26.900000,-48.646667,https://www.portoitajai.com.br/
+5,Porto de Sao Francisco do Sul,porto,Sao Francisco do Sul,SC,-26.235833,-48.654167,https://www.apsfs.sc.gov.br/
+6,Porto de Imbituba,porto,Imbituba,SC,-28.227778,-48.646667,https://portodeimbituba.com.br/
+7,Porto do Rio Grande,porto,Rio Grande,RS,-32.048056,-51.884722,https://www.portosrs.com.br/
+8,Porto de Porto Alegre,porto,Porto Alegre,RS,-30.013889,-51.223889,https://www.portosrs.com.br/
+9,Porto de Pelotas,porto,Pelotas,RS,-31.782222,-52.332778,https://www.portosrs.com.br/

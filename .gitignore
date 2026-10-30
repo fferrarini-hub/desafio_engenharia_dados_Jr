@@ -1,0 +1,31 @@
+
+# Ambiente virtual
+.venv/
+
+# Cache e arquivos temporários
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Banco de dados local
+database/*.duckdb
+database/*.wal
+
+# Dados brutos e arquivos grandes
+raw/*.csv
+raw/*.csv.gz
+
+# Configurações locais
+.env
+.env.*
+!.env.example
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Outro projeto Git (Olist)
+/dados/

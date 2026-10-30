@@ -1,0 +1,23 @@
+[project]
+name = "projeto-final"
+version = "0.1.0"
+authors = [
+    { name = "Fabi Ferrarini", email = "fabianeferrarini@gmail.com" }
+]
+requires-python = ">=3.13.16"
+dependencies = [
+    "duckdb>=2.0.0",
+    "pandas>=3.1.0",
+    "requests>=2.34.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.17.3",
+]
