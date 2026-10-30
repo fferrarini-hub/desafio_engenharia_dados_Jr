@@ -16,7 +16,7 @@ from projeto_final.validacao import (
 )
 
 RAIZ_PROJETO = Path(__file__).resolve().parents[2]
-CAMINHO_CATALOGO = RAIZ_PROJETO / "dados" / "referencia" / "instalacoes.csv"
+CAMINHO_CATALOGO = RAIZ_PROJETO / "referencia" / "instalacoes.csv"
 CAMINHO_BRONZE = RAIZ_PROJETO / "raw" / "osrm_rotas.jsonl"
 INTERVALO_SEGUNDOS = 1
 
