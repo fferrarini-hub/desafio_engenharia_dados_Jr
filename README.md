@@ -298,27 +298,17 @@ As fontes institucionais utilizadas incluem:
 
 
 
-As coordenadas geográficas foram levantadas por meio de consulta cartográfica ao Google Maps, utilizando pontos de referência aproximados das instalações logísticas.
+O catálogo `referencia/instalacoes.csv` contém nove instalações logísticas. Oito registros possuem latitude e longitude preenchidas; um registro, referente à Cargolift de São José dos Pinhais, não possui coordenadas.
 
+As coordenadas existentes são mantidas neste projeto como referências geográficas aproximadas para alimentar as consultas de roteamento da API OSRM. A origem individual de cada coordenada não foi registrada no catálogo e, portanto, não é possível atribuir documentalmente sua obtenção a uma fonte específica. A coluna `fonte` identifica referências institucionais das instalações, mas não comprova a origem das coordenadas.
 
+**Limitações e rastreabilidade das coordenadas:**
 
-Essas coordenadas foram utilizadas como referências para alimentar as consultas de roteamento da API OSRM.
-
-
-
-**\*\*Limitações das coordenadas:\*\***
-
-
-
-\- Representam pontos geográficos aproximados das instalações.
-
-\- Não necessariamente correspondem aos portões de entrada ou áreas operacionais.
-
-\- Não foram validadas como pontos oficiais de acesso para veículos pesados.
-
-\- A precisão dos trajetos depende da qualidade dessas referências geográficas.
-
-
+- Representam pontos geográficos aproximados das instalações.
+- A origem individual das coordenadas não está documentada no CSV.
+- Não necessariamente correspondem aos portões de entrada ou áreas operacionais.
+- Não foram validadas como pontos oficiais de acesso para veículos pesados.
+- A precisão dos trajetos depende da qualidade dessas referências geográficas.
 
 Uma das nove instalações cadastradas, a Cargolift de São José dos Pinhais, não possui coordenadas preenchidas e, por isso, não participa das consultas à API.
 
